@@ -6,18 +6,16 @@ Este repositorio contiene la configuración de nvchad para facilitar el desarrol
 ![nvchad para Flutter](capturas/democaptura.png)
 
 ## Contenido adicional a la configuracion por defecto de Nvchad
-👌 Configuracion para Flutter
-👍 Autoguardado
-🍿 Autocompletado con tabnine
-🤖 (optional) Github Copilot "require descomentar un par de lineas de codigo"
-🖥️ Tema tokyonight
-😶‍🌫️ LunarVim color Schemes
-🫡 LspSaga 
-🤐 Pretty Folding 
-🙂 Varios atajos inspirado en LunarVim
+-👌 Configuracion para Flutter
+-👍 Autoguardado
+-🍿 Autocompletado con tabnine
+-🤖 (optional) Github Copilot "require descomentar un par de lineas de codigo"
+-🖥️ Tema tokyonight
+-😶‍🌫️ LunarVim color Schemes
+-🫡 LspSaga 
+-🤐 Pretty Folding 
+-🙂 Varios atajos inspirado en LunarVim
 
-Entre otros... 🥲🥲
-u otros por venir.
-
+-Entre otros... 🥲🥲
 ## Agradecimientos para 
 https://nvchad.com/
