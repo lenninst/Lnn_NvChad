@@ -5,7 +5,7 @@ Este repositorio contiene la configuración de nvchad para facilitar el desarrol
 
 ![nvchad para Flutter](capturas/democaptura.png)
 
-## Contenido adicional a la configuracion por defecto de Nvchad
+## Contenido adicional
 - 👌 Configuración para Flutter
 - 👍 Autoguardado
 - 🍿 Autocompletado con tabnine
