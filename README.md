@@ -1,7 +1,7 @@
 # nvchad para Flutter
 Este repositorio contiene la configuración de nvchad para facilitar el desarrollo en Flutter (Mi configuracion personal). nvchad es una potente configuración de Neovim que proporciona una experiencia de programación eficiente y personalizable.
 
-## Captura de Pantalla
+## Captura 
 
 ![nvchad para Flutter](capturas/democaptura.png)
 
@@ -16,5 +16,47 @@ Este repositorio contiene la configuración de nvchad para facilitar el desarrol
 - 🤐 Pretty Folding 
 - 🙂 Varios atajos inspirados en LunarVim
 -Entre otros... 🥲🥲
-## Agradecimientos para 
+## Installacion para windows
+Por ahora aun no he probado en otros sistemas mas que con Windows (en mi caso Windows 11) pero asumo que cualquier version de windows superior a 7 con 64bit no tendra problemas.. 🥲.
+Opté por usar Chocolatey para instalar algunos complementeos externos ademas me parece la manera mas facil de instalar todo en fin.
+1. Instalar gestior de paquete `Chocolatey`
+```bash
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
+2. Instlar NeoVim
+```bash
+choco install neovim --pre 
+```
+3. Instalar mingw
+```bash
+choco install mingw
+```
+4. Instala gnuwin32
+```bash
+choco install gnuwin32-coreutils.install
+```
+5. Instalacion Nvchad
+En esta parte puedes optar por installar nvchad y luego copiar las configuraciones (recomendado)
+```bash
+git clone https://github.com/NvChad/NvChad $HOME\AppData\Local\nvim --depth 1 && nvim
+```
+O puedes clonar directamente mi configuracion personal
+```bash
+git clone https://github.com/lenninst/NvChad_Flutter $HOME\AppData\Local\nvim --depth 1 && nvim
+```
+7. Configura tu terminal recuerda usar nerd fonts "necesario" si usas alacrity puedes copiar una configuracion personal mia aqui https://github.com/lenninst/Alacritty_myConfig.git. 
+8. Ejecuta el comando `nvim` en el terminal y espera 🫡.
+9. Has llegado el final
+
+> [!NOTE]
+> Estos pasos estan muy resumidos de modo que si encuentran problemas no duden en preguntar a nuestro amistoso asistente chatgpt o buscar en google 🫡, ademas asoy nuuevo en esto, cualquier correcion o sugerencia es bienvenido.
+## Agradecimientos
+Para todo el grupo que esta detras de:
+NvChad  💚
 https://nvchad.com/
+LunarVim 💜
+https://www.lunarvim.org/es/
+Y los autores de los ingredientes 🧡 
+
+
+
