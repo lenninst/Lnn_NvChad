@@ -56,6 +56,8 @@ git clone https://github.com/lenninst/NvChad_Flutter $HOME\AppData\Local\nvim --
 Para todo el grupo que esta detras de
 - NvChad  💚 https://nvchad.com/
 - LunarVim 💜 https://www.lunarvim.org/es/
+- Neovim 🤎 https://neovim.io/
+- Chocolatey 🩵 https://chocolatey.org/
   
 Y los autores de los ingredientes 🧡
 - https://nvimdev.github.io/lspsaga/
@@ -63,6 +65,7 @@ Y los autores de los ingredientes 🧡
 - https://github.com/zbirenbaum/copilot.lua
 - https://github.com/pocco81/auto-save.nvim
 - entre otros que en este momento no recuerdo.🙏
+
 
 
 
