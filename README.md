@@ -53,7 +53,7 @@ git clone https://github.com/lenninst/NvChad_Flutter $HOME\AppData\Local\nvim --
 > [!NOTE]
 > Estos pasos estan muy resumidos de modo que si encuentran problemas no duden en preguntar a nuestro amistoso asistente chatgpt o buscar en google 🫡, ademas asoy nuuevo en esto, cualquier correcion o sugerencia es bienvenido.
 ## Agradecimientos
-Para todo el grupo que esta detras de:
+Para todo el grupo que esta detras de
 - NvChad  💚 https://nvchad.com/
 - LunarVim 💜 https://www.lunarvim.org/es/
   
@@ -62,7 +62,7 @@ Y los autores de los ingredientes 🧡
 - https://github.com/codota/tabnine-nvim
 - https://github.com/zbirenbaum/copilot.lua
 - https://github.com/pocco81/auto-save.nvim
-- entre otros que entes momento no recuerdo.🙏
+- entre otros que en este momento no recuerdo.🙏
 
 
 
