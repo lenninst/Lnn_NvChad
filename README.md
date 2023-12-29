@@ -52,6 +52,14 @@ git clone https://github.com/lenninst/NvChad_Flutter $HOME\AppData\Local\nvim --
 
 > [!NOTE]
 > Estos pasos estan muy resumidos de modo que si encuentran problemas no duden en preguntar a nuestro amistoso asistente chatgpt o buscar en google 🫡, ademas asoy nuuevo en esto, cualquier correcion o sugerencia es bienvenido.
+
+Ademas es necesario installar flutter y agregar la variable de entorno.
+Puedes instalar siguiendo los pasos de instalacion proporcionada por Flutter en el siguiente enlace https://docs.flutter.dev/get-started/install/windows/desktop?tab=download
+O Es posible usar el gestior de paquetes para instalarlo
+```bash
+choco install flutter
+```
+👌
 ## Agradecimientos
 Para todo el grupo que esta detras de
 - NvChad  💚 https://nvchad.com/
