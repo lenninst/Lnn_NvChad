@@ -58,7 +58,12 @@ NvChad  💚
 https://nvchad.com/
 LunarVim 💜
 https://www.lunarvim.org/es/
-Y los autores de los ingredientes 🧡 
+Y los autores de los ingredientes 🧡
+- https://nvimdev.github.io/lspsaga/
+- https://github.com/codota/tabnine-nvim
+- https://github.com/zbirenbaum/copilot.lua
+- https://github.com/pocco81/auto-save.nvim
+- entre otros que entes momento no recuerdo.🙏
 
 
 
