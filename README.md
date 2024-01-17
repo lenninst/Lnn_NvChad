@@ -1,4 +1,4 @@
-# nvchad para Flutter
+# Mi configuracion de nvchad 
 Este repositorio contiene la configuración de nvchad para facilitar el desarrollo en Flutter (Mi configuracion personal). nvchad es una potente configuración de Neovim que proporciona una experiencia de programación eficiente y personalizable.
 
 ## Captura 
@@ -8,12 +8,12 @@ Este repositorio contiene la configuración de nvchad para facilitar el desarrol
 ## Contenido adicional
 - 👌 Configuración para Flutter
 - 👍 Autoguardado
-- 🍿 Autocompletado con tabnine
-- 🤖 (opcional) Github Copilot *(require descomentar un par de líneas de código)*
+- 🍿 Autocompletado Github copilot
+- 🤖 (opcional) Github CopilotChat 
 - 🖥️ Tema tokyonight
 - 😶‍🌫️ LunarVim color Schemes
 - 🫡 LspSaga 
-- 🤐 Pretty Folding 
+- 🤐 Pretty Folding
 - 🙂 Varios atajos inspirados en LunarVim
 -Entre otros... 🥲🥲
 ## Installacion para windows
