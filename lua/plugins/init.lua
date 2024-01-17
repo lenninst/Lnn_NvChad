@@ -1,10 +1,7 @@
--- All plugins have lazy=true by default,to load a plugin on startup just lazy=false
-
-
--- List of all default plugins & their definitions
 local default_plugins = {
 
   "nvim-lua/plenary.nvim",
+  'gptlang/CopilotChat.nvim',
 
   {
     "NvChad/base46",
@@ -290,8 +287,8 @@ local default_plugins = {
       require("inc_rename").setup()
     end,
   },
-}
-
+  { "bluz71/vim-nightfly-colors", name = "nightfly", lazy = false, priority = 1000 },
+ }
 
 local config = require("core.utils").load_config()
 
@@ -301,22 +298,39 @@ end
 
 require("lazy").setup(default_plugins, config.lazy_nvim)
 
--- Get platform dependant build script
--- tabnine
- require('tabnine').setup({
-  disable_auto_comment=true,
-  accept_keymap="<Right>",
-  dismiss_keymap = "<C-]>",
-  debounce_ms = 800,
-  suggestion_color = {gui = "#808080", cterm = 244},
-  exclude_filetypes = {"TelescopePrompt", "NvimTree"},
-  log_file_path = nil, -- absolute path to Tabnine log file
-})
 -- extra config
 vim.o.wrap = false
+
+vim.cmd('colorscheme tokyonight-night')
 
 -- Activar folding
 vim.o.foldenable = false
 
+vim.api.nvim_set_keymap('n', '<leader>z', ':CopilotChat<CR>', { noremap = true, silent = true })
+
 -- Establecer método de folding (puedes elegir el que prefieras)
 vim.o.foldmethod = 'indent'
+
+-- Resaltar la línea actual
+vim.cmd[[
+  augroup CursorLine
+    autocmd!
+    autocmd CursorMoved * hi CursorLine guibg=#232738
+    autocmd InsertEnter * hi CursorLine guibg=#232738
+    autocmd InsertLeave * hi CursorLine guibg=NONE
+  augroup END
+]]
+  -- cambiar explirador a lado derecho
+local nvim_tree = require("nvim-tree")
+
+nvim_tree.setup({
+  view = {
+    side = "right", -- Cambia "left" a "right"
+  },
+})
+vim.cmd[[augroup NvimTreeConfig]]
+vim.cmd[[autocmd!]]
+vim.cmd[[autocmd VimEnter * NvimTreeToggle]]
+vim.cmd[[augroup END]]
+
+

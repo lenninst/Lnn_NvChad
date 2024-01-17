@@ -111,7 +111,8 @@ local options = {
     { name = "buffer" },
     { name = "nvim_lua" },
     { name = "path" },
-    { name = "cmp-tabnine" },
+
+    -- { name = "cmp-tabnine" },
   },
 }
 
