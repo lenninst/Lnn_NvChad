@@ -16,7 +16,7 @@ Este repositorio contiene la configuración de nvchad para facilitar el desarrol
 - 🤐 Pretty Folding
 - 🙂 Varios atajos inspirados en LunarVim
 -Entre otros... 🥲🥲
-## Installacion para windows
+## Installacion para windows (por primera vez)
 Por ahora aun no he probado en otros sistemas mas que con Windows (en mi caso Windows 11) pero asumo que cualquier version de windows superior a 7 con 64bit no tendra problemas.. 🥲.
 Opté por usar Chocolatey para instalar algunos complementeos externos ademas me parece la manera mas facil de instalar todo en fin.
 Para ejecutar los siguiente comandos necesitas abrir un powershell en modo administrador + paciencia mucha paciencia.
