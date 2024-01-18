@@ -4,7 +4,7 @@ Este repositorio contiene la configuración de nvchad para facilitar el desarrol
 ## Captura 
 
 ![nvchad para Flutter](capturas/democaptura.png)
-
+![nvchad para Flutter](vimChad.png)
 ## Contenido adicional
 - 👌 Configuración para Flutter
 - 👍 Autoguardado
