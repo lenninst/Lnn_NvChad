@@ -45,10 +45,10 @@ O puedes clonar directamente mi configuracion personal
 ```bash
 git clone https://github.com/lenninst/NvChad_Flutter $HOME\AppData\Local\nvim --depth 1 && nvim
 ```
-7. Configura tu terminal recuerda usar nerd fonts "necesario"
-   Si usas alacrity puedes copiar una configuracion personal mia aqui https://github.com/lenninst/Alacritty_myConfig.git.
-9. Ejecuta el comando `nvim` en el terminal y espera o puedes tomar otra taza de cafe mientras tanto.
-10. Has llegado el final
+6. Configura tu terminal recuerda usar nerd fonts "necesario"
+   Si usas alacrity puedes puedes usar alguna configuracion en internet hay muchas si deseas puedes copiar mi configuracion personal a aqui https://github.com/lenninst/Alacritty_myConfig.git.
+7. Ejecuta el comando `nvim` en el terminal y espera o puedes tomar otra taza de cafe mientras tanto.
+8. Has llegado el final
 
 > [!NOTE]
 > Estos pasos estan muy resumidos de modo que si encuentran problemas no duden en preguntar a nuestro amistoso asistente chatgpt o buscar en google 🫡, ademas asoy nuuevo en esto, cualquier correcion o sugerencia es bienvenido.
